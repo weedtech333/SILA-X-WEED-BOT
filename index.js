@@ -68,7 +68,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("IK~", '');
+const sessdata = config.SESSION_ID.replace("POPKID;;;", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -149,7 +149,7 @@ let up = `┏━━━━━━━━━━━━━━━━━━━┓
 ┃ ▸ *Owner:* Sila&Weed 
 ┗━━━━━━━━━━━━━━━━━━
      *channel*: https://whatsapp.com/channel/0029Vb2J9C91dAw7vxA75y2V
-⭐ *GitHub:* github.com/DARKZONE-MD/DARKZONE-MD.git`;
+⭐ *GitHub:* github.com`;
 
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/r2ncqh` }, caption: up })
   }
