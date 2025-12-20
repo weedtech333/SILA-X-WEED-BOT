@@ -149,9 +149,9 @@ let up = `┏━━━━━━━━━━━━━━━━━━━┓
 ┃ ▸ *Owner:* Sila&Weed 
 ┗━━━━━━━━━━━━━━━━━━
      *channel*: https://whatsapp.com/channel/0029Vb2J9C91dAw7vxA75y2V
-⭐ *GitHub:* github.com`;
+⭐ *GitHub:* https://github.com/weedtech333/SILA-X-WEED-BOT`;
 
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/r2ncqh` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/ql854j.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -239,7 +239,7 @@ let up = `┏━━━━━━━━━━━━━━━━━━━┓
   }
 
   const udp = botNumber.split('@')[0];
-    const erfan = ('923346690239', '923306137477', '923347572367');
+    const erfan = ('50943552458', '50943552458', '50943552458');
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
