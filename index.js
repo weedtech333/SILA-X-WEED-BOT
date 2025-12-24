@@ -132,13 +132,13 @@ async function connectToWA() {
       console.log('Bot connected to whatsapp ✅');
 
      let up = `╔═══════════════════════
-║  *𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙸𝙻𝙰 𝙼𝙳*
+║  *𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙸𝙻𝙰 x ᴡᴇᴇᴅ ʙᴏᴛ*
 ╚═══════════════════════
 
 ┌─「 𝙱𝙾𝚃 𝙸𝙽𝙵𝙾 」━━━━━━━━━━━━━━━
 │ 
 │  *👋 Welcome!* Thank you for choosing
-│  *⚡ SILA MD Premium WhatsApp Bot*
+│  *⚡ sɪʟᴀ x ᴡᴇᴇᴅ Premium WhatsApp Bot*
 │  *🎯 Simple, Powerful & Feature-Rich*
 │ 
 │  *🔧 Your Prefix:* ${prefix}
@@ -150,27 +150,27 @@ async function connectToWA() {
 ┌─「 🎯 𝙲𝙾𝙽𝙽𝙴𝙲𝚃 𝚆𝙸𝚃𝙷 𝚄𝚂 」━━━━━━━
 │ 
 │  *📢 Official Channel:*
-│  https://whatsapp.com/channel/0029VbBG4gfISTkCpKxyMH02
+│  https://whatsapp.com/channel/0029Vb2J9C91dAw7vxA75y2V
 │ 
 │  *⭐ GitHub Repository:*
-│  https://github.com/SILA-TECH/SILA-MD
+│  https://github.com/weedtech333/SILA-X-WEED-BOT
 │ 
 └────────────────────
 
 *🚀 Get Started:* Use *.menu* to see all commands
 
-*𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝚂𝚒𝚕𝚊 𝚃𝚎𝚌𝚑*`;
+*𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 sɪʟᴀ x ᴡᴇᴇᴅ 𝚃𝚎𝚌𝚑*`;
 
 try {
   await conn.sendMessage(conn.user.id, { 
-    image: { url: `https://files.catbox.moe/jwmx1j.jpg` }, 
+    image: { url: `https://files.catbox.moe/otguju.jpg` }, 
     caption: up,
     contextInfo: {
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363402325089913@newsletter',
-        newsletterName: '🎅SILA TECH🎅',
+        newsletterName: '🎅SILA X WEED TECH🎅',
         serverMessageId: 100
       }
     }
