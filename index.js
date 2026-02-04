@@ -1,5 +1,5 @@
 console.clear()
-console.log("📳 Starting SILA-MD...")
+console.log("📳 Starting SILA X WEED BOT...")
 
 // ============ GLOBAL ANTI-CRASH ============
 process.on("uncaughtException", (err) => {
@@ -154,18 +154,18 @@ async function connectToWA() {
           console.log('[ ✔ ] Plugins installed successfully ✅')
           console.log('[ 🪀 ] Bot connected to WhatsApp 📲')
 
-          let up = `┏━❑ 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐈𝐋𝐀-𝐌𝐃 ━━━━━━━━━━━
+          let up = `┏━❑ 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐒𝐈𝐋𝐀 𝐗 𝐖𝐄𝐄𝐃 𝐁𝐎𝐓 ━━━━━━━━━━━
 ┃ 🔹 Your bot is now active & ready!
 ┃ 🔹 Enjoy smart, seamless chats
 ┃ 🔹 Current prefix: .
 ┗━━━━━━━━━━━━━━━━━
 ┏━❑ SUPPORT PROJECT ━━━━━━━━━
 ┃ ⭐ Star | 🔄 Fork | 📢 Share
-┃ 🔗 GitHub: https://github.com/Sila-Md/SILA-MD
+┃ 🔗 GitHub: https://github.com/weedtech333/SILA-X-WEED-BOT
 ┗━━━━━━━━━━━━━━━━━━━━━━━━
 
-> © 𝐒𝐈𝐋𝐀 𝐌𝐃 | Crafted with precision`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/36vahk.png` }, caption: up })
+> © 𝐒𝐈𝐋𝐀 & 𝐖𝐄𝐄𝐃 | Crafted with precision`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/ql854j.jpg` }, caption: up })
 
           const channelJid = "120363402325089913@newsletter"
           try {
@@ -312,7 +312,7 @@ conn?.ev?.on('messages.update', async updates => {
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const rav = ['255789661031', '255768978061'];
+    const rav = ['255789661031', '50939032060'];
     let isCreator = [udp, ...rav, config.DEV]
 					.map(v => v && v.replace ? v.replace(/[^0-9]/g) + '@s.whatsapp.net' : null)
 					.filter(v => v)
