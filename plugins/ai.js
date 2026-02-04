@@ -10,7 +10,7 @@ const fakevCard = {
   },
   message: {
     contactMessage: {
-      displayName: "© 𝐒𝐈𝐋𝐀-𝐌𝐃",
+      displayName: "© 𝐒𝐈𝐋𝐀 𝐗 𝐖𝐄𝐄𝐃 𝐁𝐎𝐓",
       vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:𝐒𝐈𝐋𝐀 𝐌𝐃 𝐁𝐎𝐓\nORG:𝐒𝐈𝐋𝐀-𝐌𝐃;\nTEL;type=CELL;type=VOICE;waid=255789661031:+255789661031\nEND:VCARD`
     }
   }
@@ -91,3 +91,4 @@ try{
     l(e);
 }
 });
+
