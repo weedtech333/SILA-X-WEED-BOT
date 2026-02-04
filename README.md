@@ -14,6 +14,9 @@ A Simple Yet Complicated WhatsApp Bot<br/>
 <p>
   <img src="https://img.shields.io/badge/ENGINE-MATRIX-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/STATUS-ACTIVE-success?style=for-the-badge" />
+  <a href="https://sila-md-pairing-site.onrender.com">
+    <img src="https://img.shields.io/badge/📱_GET_SESSION-00ffea?style=for-the-badge&logo=whatsapp&logoColor=black" alt="Get Session" />
+  </a>
 </p>
 
 </div>
