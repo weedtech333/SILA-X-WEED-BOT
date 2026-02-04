@@ -1,6 +1,6 @@
-name: SILA X WEED BOT
+name: popkid-md
 services:
-  - name: SILA X WEED BOT-service
+  - name: popkid-md-service
     type: web
     ports:
       - 5000
