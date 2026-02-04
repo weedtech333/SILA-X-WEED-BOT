@@ -108,7 +108,7 @@ async (conn, mek, m, { from, l, q, sender }) => {
     try {
         if (!isOwner(sender)) {
             return await conn.sendMessage(from, {
-                text: `❌ 𝙾𝚗𝚕𝚢 𝚋𝚘𝚝 𝚘𝚠𝚗𝚎𝚛𝚜 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜\n\n© Powered by Sila Tech`,
+                text: `❌ 𝙾𝚗𝚕𝚢 𝚋𝚘𝚝 𝚘𝚠𝚗𝚎𝚛𝚜 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜\n\n© Powered by Sila & Weed Tech`,
                 contextInfo: getContextInfo(sender)
             }, { quoted: fakevCard });
         }
@@ -158,7 +158,7 @@ async (conn, mek, m, { from, l, q, sender }) => {
             const icon = newStatus === 'true' ? '🟢' : '🔴';
             
             await conn.sendMessage(from, {
-                text: `┏━━━ 𝐒𝐄𝐓𝐓𝐈𝐍𝐆 𝐔𝐏𝐃𝐀𝐓𝐄𝐃 ━━━\n┃\n┃ ${icon} 𝑭𝒆𝒂𝒕𝒖𝒓𝒆:\n┃ 📌 ${feature.toUpperCase()}\n┃\n┃ 𝑺𝒕𝒂𝒕𝒖𝒔:\n┃ ${statusText}\n┃\n┗━━━━━━━━━━━━━━━━━━━━\n\n© Powered by Sila Tech`,
+                text: `┏━━━ 𝐒𝐄𝐓𝐓𝐈𝐍𝐆 𝐔𝐏𝐃𝐀𝐓𝐄𝐃 ━━━\n┃\n┃ ${icon} 𝑭𝒆𝒂𝒕𝒖𝒓𝒆:\n┃ 📌 ${feature.toUpperCase()}\n┃\n┃ 𝑺𝒕𝒂𝒕𝒖𝒔:\n┃ ${statusText}\n┃\n┗━━━━━━━━━━━━━━━━━━━━\n\n© Powered by Sila & Weed Tech`,
                 contextInfo: getContextInfo(sender)
             }, { quoted: fakevCard });
         } else {
@@ -171,7 +171,7 @@ async (conn, mek, m, { from, l, q, sender }) => {
         console.error('Settings command error:', e);
         try {
             await conn.sendMessage(from, {
-                text: `❌ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 𝚎𝚛𝚛𝚘𝚛: ${e.message}\n\n© Powered by Sila Tech`,
+                text: `❌ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 𝚎𝚛𝚛𝚘𝚛: ${e.message}\n\n© Powered by Sila & Weed Tech`,
                 contextInfo: getContextInfo(sender)
             }, { quoted: fakevCard });
         } catch (sendErr) {
@@ -180,3 +180,4 @@ async (conn, mek, m, { from, l, q, sender }) => {
         if (l) l(e);
     }
 });
+
