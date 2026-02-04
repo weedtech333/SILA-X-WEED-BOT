@@ -11,8 +11,8 @@ const fakevCard = {
   },
   message: {
     contactMessage: {
-      displayName: "© 𝐒𝐈𝐋𝐀-𝐌𝐃",
-      vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:𝐒𝐈𝐋𝐀 𝐌𝐃 𝐁𝐎𝐓\nORG:𝐒𝐈𝐋𝐀-𝐌𝐃;\nTEL;type=CELL;type=VOICE;waid=255789661031:+255789661031\nEND:VCARD`
+      displayName: "© 𝐒𝐈𝐋𝐀 𝐗 𝐖𝐄𝐄𝐃 𝐁𝐎𝐓",
+      vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:𝐒𝐈𝐋𝐀 𝐗 𝐖𝐄𝐄𝐃 𝐁𝐎𝐓\nORG:𝐒𝐈𝐋𝐀-𝐌𝐃;\nTEL;type=CELL;type=VOICE;waid=255789661031:+255789661031\nEND:VCARD`
     }
   }
 };
@@ -23,8 +23,8 @@ const getContextInfo = (m) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363402325089913@newsletter',
-            newsletterName: '© 𝐒𝐈𝐋𝐀 𝐌𝐃',
+            newsletterJid: '120363407561123100@newsletter',
+            newsletterName: '© 𝐒𝐈𝐋𝐀 & 𝐖𝐄𝐄𝐃',
             serverMessageId: 143,
         },
     };
@@ -98,7 +98,7 @@ try{
     // Check if sender is owner or creator
     if (!isOwner(sender)) {
         return await conn.sendMessage(from, {
-            text: `❌ 𝙾𝚗𝚕𝚢 𝚋𝚘𝚝 𝚘𝚠𝚗𝚎𝚛𝚜 𝚌𝚊𝚗 𝚊𝚍𝚍 𝚘𝚠𝚗𝚎𝚛𝚜\n\n> © Powered by Sila Tech`,
+            text: `❌ 𝙾𝚗𝚕𝚢 𝚋𝚘𝚝 𝚘𝚠𝚗𝚎𝚛𝚜 𝚌𝚊𝚗 𝚊𝚍𝚍 𝚘𝚠𝚗𝚎𝚛𝚜\n\n> © Powered by Sila & Weed Tech`,
             contextInfo: getContextInfo({ sender: sender })
         }, { quoted: fakevCard });
     }
@@ -114,7 +114,7 @@ try{
         targetJid = normalizeJid(q.trim());
     } else {
         return await conn.sendMessage(from, {
-            text: `❌ 𝙿𝚕𝚎𝚊𝚜𝚎 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚊 𝚗𝚞𝚖𝚋𝚎𝚛 𝚘𝚛 𝚖𝚎𝚗𝚝𝚒𝚘𝚗\n\n> © Powered by Sila Tech`,
+            text: `❌ 𝙿𝚕𝚎𝚊𝚜𝚎 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚊 𝚗𝚞𝚖𝚋𝚎𝚛 𝚘𝚛 𝚖𝚎𝚗𝚝𝚒𝚘𝚗\n\n> © Powered by Sila & Weed Tech`,
             contextInfo: getContextInfo({ sender: sender })
         }, { quoted: fakevCard });
     }
@@ -135,21 +135,22 @@ try{
 ┃ 👑 ${targetJid.split('@')[0]}
 ┗━━━━━━━━━━━━━━━━━━━━
 
-> © Powered by Sila Tech`,
+> © Powered by Sila & Weed Tech`,
             contextInfo: getContextInfo({ sender: sender })
         }, { quoted: fakevCard });
     } else {
         await conn.sendMessage(from, {
-            text: `❌ 𝙵𝚊𝚒𝚕𝚎𝚍 𝚝𝚘 𝚊𝚍𝚍 𝚘𝚠𝚗𝚎𝚛\n\n> © Powered by Sila Tech`,
+            text: `❌ 𝙵𝚊𝚒𝚕𝚎𝚍 𝚝𝚘 𝚊𝚍𝚍 𝚘𝚠𝚗𝚎𝚛\n\n> © Powered by Sila & Weed Tech`,
             contextInfo: getContextInfo({ sender: sender })
         }, { quoted: fakevCard });
     }
 
 } catch (e) {
     await conn.sendMessage(from, {
-        text: `❌ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 𝚏𝚊𝚒𝚕𝚎𝚍\n\n> © Powered by Sila Tech`,
+        text: `❌ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 𝚏𝚊𝚒𝚕𝚎𝚍\n\n> © Powered by Sila & Weed Tech`,
         contextInfo: getContextInfo({ sender: sender })
     }, { quoted: fakevCard });
     l(e);
 }
 });
+
