@@ -12,7 +12,7 @@ const fakevCard = {
   },
   message: {
     contactMessage: {
-      displayName: "© 𝐒𝐈𝐋𝐀-𝐌𝐃",
+      displayName: "© 𝐒𝐈𝐋𝐀 𝐗 𝐖𝐄𝐄𝐃 𝐁𝐎𝐓",
       vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:𝐒𝐈𝐋𝐀 𝐌𝐃 𝐁𝐎𝐓\nORG:𝐒𝐈𝐋𝐀-𝐌𝐃;\nTEL;type=CELL;type=VOICE;waid=255789661031:+255789661031\nEND:VCARD`
     }
   }
@@ -45,7 +45,7 @@ async (conn, mek, m, { from, sender, reply, pushName }) => {
         const prefix = config.PREFIX || '.';
         
         const aliveMessage = 
-`┏━❑ 𝐒𝐈𝐋𝐀-𝐌𝐃 𝐁𝐎𝐓 ━━━━━━━━━
+`┏━❑ 𝐒𝐈𝐋𝐀 𝐗 𝐖𝐄𝐄𝐃 𝐁𝐎𝐓 ━━━━━━━━━
 ┃ ✅ Status: ALIVE & ACTIVE
 ┃ 👤 User: ${pushName || sender.split('@')[0]}
 ┃ 🚀 Mode: ${mode}
@@ -56,7 +56,7 @@ async (conn, mek, m, { from, sender, reply, pushName }) => {
 ┃ 💚 Bot Health: 100%
 ┗━━━━━━━━━━━━━━━━━━━━`;
         
-        const imageUrl = 'https://files.catbox.moe/36vahk.png';
+        const imageUrl = 'https://files.catbox.moe/ql854j.jpg';
         
         try {
             await conn.sendMessage(from, 
@@ -78,3 +78,4 @@ async (conn, mek, m, { from, sender, reply, pushName }) => {
         reply("❌ Error: " + e.message);
     }
 });
+
