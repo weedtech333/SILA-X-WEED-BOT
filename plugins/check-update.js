@@ -69,19 +69,19 @@ Use *.update* to update.`;
       `📌 *Bot Name:* SILA X WEED BOT\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟](https://github.com/DARKZONE-MD)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [𝑺𝑰𝑳𝑨 & 𝑾𝒆𝒆𝒅 ](https://github.com/weedtech333/SILA-X-WEED-BOT)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/r2ncqh' },
+      image: { url: 'https://files.catbox.moe/ql854j.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363416743041101@newsletter',
-          newsletterName: '𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟',
+          newsletterJid: '120363407561123100@newsletter',
+          newsletterName: '𝑺𝑰𝑳𝑨 𝑿 𝑾𝒆𝒆𝒅 𝑩𝑶𝑻',
           serverMessageId: 143
         }
       }
