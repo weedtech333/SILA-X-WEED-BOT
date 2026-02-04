@@ -93,7 +93,3 @@ ANTI_VV: process.env.ANTI_VV || "true",
 AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // 𝗺𝗮𝗸𝗲 𝗶𝘁 𝘁𝗿𝘂𝗲 𝗳𝗼𝗿 𝗮𝘂𝘁𝗼 𝗿𝗲𝗰𝗼𝗿𝗱𝗶𝗻𝗴
 };
-
-module.exports = {
-    WARN_COUNT: 3
-};
