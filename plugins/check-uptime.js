@@ -119,8 +119,8 @@ ${config.DESCRIPTION}`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363416743041101@newsletter',
-                    newsletterName: config.OWNER_NAME || '𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟',
+                    newsletterJid: '120363407561123100@newsletter',
+                    newsletterName: config.OWNER_NAME || '𝑺𝑰𝑳𝑨 & 𝑾𝒆𝒆𝒅',
                     serverMessageId: 143
                 }
             }
