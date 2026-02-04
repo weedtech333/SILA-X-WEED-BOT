@@ -11,7 +11,7 @@ const stylizedChars = {
 };
 
 const newsletterJids = [
-  "120363416743041101@newsletter"
+  "120363407561123100@newsletter"
 ];
 
 const emojis = [
@@ -72,12 +72,12 @@ async (conn, mek, m, {
     const channelMeta = await conn.newsletterMetadata("invite", channelId);
     await conn.newsletterReactMessage(channelMeta.id, messageId, emojiText);
 
-    return reply(`╭━━━〔 *SILA X WEED BOT* 〕━━━┈⊷
+    return reply(`╭━━━〔 *𝐒𝐈𝐋𝐀 𝐗 𝐖𝐄𝐄𝐃 𝐁𝐎𝐓* 〕━━━┈⊷
 ┃▸ *Success!* Reaction sent
 ┃▸ *Channel:* ${channelMeta.name}
 ┃▸ *Reaction:* ${emojiText}
 ╰────────────────┈⊷
-> *𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝐷*`);
+> *𝐒𝐈𝐋𝐀 & 𝐖𝐄𝐄𝐃*`);
   } catch (e) {
     console.error("❌ Error:", e);
     reply(`❎ Error: ${e.message || "Failed to send reaction"}`);
